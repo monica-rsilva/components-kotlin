@@ -15,9 +15,9 @@ fun CaixaDeTexto(
     aoDigitar: (String) -> Unit
 ) {
     OutlinedTextField(
-        value = "",
+        value = estado,
         onValueChange = {
-            aoDigitar
+            aoDigitar(it)
         },
         label = {
             Text(text = texto)

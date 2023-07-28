@@ -18,6 +18,7 @@ fun LoginScreen() {
             .background(Color.Blue)){
         Header()
         Form()
+
     }
 }
 
